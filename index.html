@@ -16,14 +16,14 @@
 <section>
 
 <ul class="tab-list">
-    <li><button>First Tab</button></li>
-    <li><button>Second Tab</button></li>
-    <li><button>Third Tab</button></li>
-    <li><button>Forth Tab</button></li>
+    <li><button class="tab-button selected" onclick="activateTab('first-tab', this);">First Tab</button></li>
+    <li><button class="tab-button" onclick="activateTab('second-tab', this);">Second Tab</button></li>
+    <li><button class="tab-button" onclick="activateTab('third-tab', this);">Third Tab</button></li>
+    <li><button class="tab-button" onclick="activateTab('fourth-tab', this);">Fourth Tab</button></li>
 </ul>
 
 
-<div id="first-tab">
+<div id="first-tab" style="display: block;">
 
 <p>First Tab</p>
 
@@ -44,13 +44,15 @@
 </div>
 
 
-<div id="forth-tab">
+<div id="fourth-tab">
     
-<p>Forth Tab</p>
+<p>Fourth Tab</p>
 
 </div>
 
 </section>
+
+<script src="script.js"></script>
 
 </body>
 

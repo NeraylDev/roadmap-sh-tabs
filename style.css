@@ -1,3 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    font-family: 'Teachers';
+}
+
 .tab-list {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
     list-style-type: none;
+}
+
+.tab-button {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    color: gray;
+    background-color: white;
+}
+
+.tab-button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.selected, .selected:hover {
+    font-weight: 600;
+    color: white;
+    background-color: black;
+}
+
+section {
+    width: 40%;
+    margin: 60px auto;
+}
+
+section div {
+    padding: 12px 24px;
+    display: none;
+
+    border: thin solid black;
+    border-radius: 0 0 10px 10px;
+    background-color: whitesmoke;
 }
