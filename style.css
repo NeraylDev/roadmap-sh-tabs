@@ -18,6 +18,8 @@
     border-radius: 10px 10px 0 0;
     color: gray;
     background-color: white;
+
+    transition: 0.25s;
 }
 
 .tab-button:hover {
@@ -27,6 +29,7 @@
 }
 
 .selected, .selected:hover {
+    padding: 12px 24px;
     font-weight: 600;
     color: white;
     background-color: black;
@@ -40,8 +43,7 @@ section {
 section div {
     padding: 12px 24px;
     display: none;
-
-    border: thin solid black;
+    
     border-radius: 0 0 10px 10px;
     background-color: whitesmoke;
 }
